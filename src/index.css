@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #64ffda; /* Custom primary color */
+  --color-secondary: #8892b0; /* Custom secondary color */
+  --color-bg: #112240;
+}
+
+/* Example utility classes */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+.bg-color {
+  background-color: var(--color-bg);
+}
