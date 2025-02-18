@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Info } from "../Utils/Constant";
 import Typewriter from "typewriter-effect";
 
