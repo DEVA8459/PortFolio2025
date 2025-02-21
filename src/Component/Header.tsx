@@ -19,12 +19,12 @@ const navLinks = (col: boolean) => {
 
 const Header = () => {
   return (
-    <nav className={`flex bg-color h-28 justify-between items-center px-10 font-mono`}>
+    <nav  className={` flex bg-color h-38 justify-between items-center px-10 font-mono transition-transform duration-500 ease-in-out `}>
       <IconHexagonLetterD
         stroke={2}
-        size={60}
+        size={80}
         color="#64FFDA"
-        className=" relative z-100"
+        className=" relative  z-100"
       />
       <div className="sm:flex gap-4 hidden sm:text-xl">{navLinks(false)}</div>
       <SideBar />

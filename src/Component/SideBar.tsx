@@ -5,7 +5,7 @@ import { navLinks } from './Header';
 const SideBar = () => {
     const [opened, { toggle }] = useDisclosure(false);
   return (
-    <div className='sm:hidden '>
+    <div className='sm:hidden   '>
        <Drawer.Root  className=' !-z-0'  position='right' opened={opened}   onClose={toggle} size="50vw" >
         <Drawer.Overlay className='!-z-0 !backdrop-opacity-85 blur-sm  !pointer-events-none' />
         <Drawer.Content className='!-z-0 '  bg="#112240" >
